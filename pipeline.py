@@ -1,5 +1,4 @@
 import tensorflow as tf, os, glob, random
-from tensorflow.keras.utils import to_categorical
 
 
 def make_pipeline_multy_label(path, batch_size=256, shuffle=True, class_names=None, labels=True, par=False, im_size=(256, 256, 3)):
